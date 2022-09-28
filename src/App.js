@@ -1,11 +1,13 @@
 
 import './App.css';
+import Excerises from './components/Excerises/Excerises';
+import Header from './components/Headers/Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='mt-6'>helllloooooo</h1>
-    <button className="btn btn-primary">Button</button>
+    <div >
+      <Header></Header>
+      <Excerises></Excerises>
     </div>
   );
 }
