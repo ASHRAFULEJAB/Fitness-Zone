@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import Break from '../Break/Break';
+import Details from '../Details/Details';
+import PersonalInfo from '../PersonalInfo/PersonalInfo';
 import SingleExcerise from '../SingleExcercise/SingleExcerise';
 import './Excerises.css'
 
@@ -24,8 +27,10 @@ const Excerises = () => {
                   }
     
                 </div>
-                <div>
-                    <h1>7</h1>
+                <div className=' sm:ml-3 lg:ml-24  mt-6 '>
+                    <PersonalInfo></PersonalInfo>
+                    <Break></Break>
+                    <Details></Details>
                 </div>
 
             </div>
