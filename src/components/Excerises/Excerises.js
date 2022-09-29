@@ -24,35 +24,21 @@ const Excerises = () => {
     
     useEffect(()=>{
         const savedBreakTime = getSavedTime()
-       console.log(savedBreakTime);
-       for(const addtime in savedBreakTime){
-        setBreakTime(addtime);
-       }
-    //     let timeSaved={}
-    //     savedBreakTime.push(timeSaved)
-    // //    for(const addTime in savedBreakTime){
-    //     const addedTimeBreak = breakTime.find(Time=>Time.addTime === addTime )
-    //       console.log(addedTimeBreak)
-    //        if(addedTimeBreak){
-    //         const quantity = savedBreakTime[addTime];
-    //         addedTimeBreak.quantity=quantity
-    //         timeSaved.push(addedTimeBreak)
-    
-    //        }
-    //    }
-    //    setBreakTime(savedBreakTime)
+       
+        setBreakTime([savedBreakTime]);
+       
+       
     },[])
   
-    const addToBreak = (event)=>{
-    const addTime=parseInt(event.target.value);
-    setBreakTime( addTime);
-    addToDb(addTime)
+    const addToBreak = (value)=>{
+    setBreakTime( value);
+    addToDb(value)
     }
     return (
         <div>
             <h1 className='mt-6 text-center lg:text-4xl sm:text-2xl text-black font-bold'>Select Your Today's Excerise Please??</h1>
             <div className='excercise-container'>
-                <div className='grid lg:grid-cols-3 grid grid-cols-1 md:grid-cols-2 gap-5 mt-6 '>
+                <div className='overflow-hidden 2xl:grid grid-cols-3 lg:grid grid-cols-3 md:grid-cols-2 gap-5 mt-6 '>
                   {
                     excerises.map( excerise => <SingleExcerise
                     excerise={excerise}
@@ -63,7 +49,7 @@ const Excerises = () => {
                   }
     
                 </div>
-                <div className=' sm:ml-3 lg:ml-24  mt-6 '>
+                <div className=' sm:ml-3 2xl:ml-3 lg:ml-5  mt-6 '>
                     <PersonalInfo></PersonalInfo>
                     <Break
                     addToBreak={addToBreak}
