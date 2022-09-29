@@ -25,6 +25,9 @@ const Excerises = () => {
     useEffect(()=>{
         const savedBreakTime = getSavedTime()
        console.log(savedBreakTime);
+       for(const addtime in savedBreakTime){
+        setBreakTime(addtime);
+       }
     //     let timeSaved={}
     //     savedBreakTime.push(timeSaved)
     // //    for(const addTime in savedBreakTime){
