@@ -8,6 +8,7 @@ import './Excerises.css'
 const Excerises = () => {
     const [excerises,setExcerises]=useState([])
     const [times,setTimes]= useState([])
+    const [breakTime,setBreakTime] = useState([])
     useEffect(()=>{
 
         fetch('gymDetails.json')
@@ -18,6 +19,12 @@ const Excerises = () => {
     const addToList=(excercise)=>{
       const newTimes = [...times,excercise]
       setTimes(newTimes)
+    }
+    
+  
+    const addToBreak = (event)=>{
+    const addTime=parseInt(event.target.value);
+    setBreakTime( addTime);
     }
     return (
         <div>
@@ -36,9 +43,13 @@ const Excerises = () => {
                 </div>
                 <div className=' sm:ml-3 lg:ml-24  mt-6 '>
                     <PersonalInfo></PersonalInfo>
-                    <Break></Break>
+                    <Break
+                    addToBreak={addToBreak}
+                    ></Break>
                     <Details 
                     times={times}
+                    breakTime={breakTime}
+                    
                     ></Details>
                 </div>
 
