@@ -2,11 +2,6 @@ import React from 'react';
 import './Details.css'
 
 const Details = ({times,breakTime}) => {
-//     handleInput = e => {
-//         const buttonValue = e.target.value;
-//         console.log(buttonValue);
-//         //some logic
-//   }
    
     let totalTime = 0;
     for(const excerise of times){

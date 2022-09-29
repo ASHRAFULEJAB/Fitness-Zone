@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { addToDb, getSavedTime } from '../../utilities/gym';
 import Break from '../Break/Break';
 import Details from '../Details/Details';
 import PersonalInfo from '../PersonalInfo/PersonalInfo';
@@ -21,10 +22,28 @@ const Excerises = () => {
       setTimes(newTimes)
     }
     
+    useEffect(()=>{
+        const savedBreakTime = getSavedTime()
+       console.log(savedBreakTime);
+    //     let timeSaved={}
+    //     savedBreakTime.push(timeSaved)
+    // //    for(const addTime in savedBreakTime){
+    //     const addedTimeBreak = breakTime.find(Time=>Time.addTime === addTime )
+    //       console.log(addedTimeBreak)
+    //        if(addedTimeBreak){
+    //         const quantity = savedBreakTime[addTime];
+    //         addedTimeBreak.quantity=quantity
+    //         timeSaved.push(addedTimeBreak)
+    
+    //        }
+    //    }
+    //    setBreakTime(savedBreakTime)
+    },[])
   
     const addToBreak = (event)=>{
     const addTime=parseInt(event.target.value);
     setBreakTime( addTime);
+    addToDb(addTime)
     }
     return (
         <div>
