@@ -1,13 +1,16 @@
 .excercise-container{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
     margin-left: 5px;
 }
 @media screen and (max-width:640px) {
     .excercise-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin: 0;
+        margin-left: 0;
         
         
     }
+    
 }

@@ -12,9 +12,9 @@ const Excerises = () => {
     },[])
     return (
         <div>
-            <h1 className='mt-6 text-center text-4xl text-black font-bold'>Select Your Today's Excerise Please??</h1>
+            <h1 className='mt-6 text-center lg:text-4xl sm:text-2xl text-black font-bold'>Select Your Today's Excerise Please??</h1>
             <div className='excercise-container'>
-                <div className='grid lg:grid-cols-3 grid grid-cols-1 md:grid-cols-2 gap-5'>
+                <div className='grid lg:grid-cols-3 grid grid-cols-1 md:grid-cols-2 gap-5 mt-6 '>
                   {
                     excerises.map( excerise => <SingleExcerise
                     excerise={excerise}
