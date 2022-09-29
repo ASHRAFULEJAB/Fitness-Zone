@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './SingleExcerise.css'
 
-const SingleExcerise = ({excerise}) => {
-    console.log(excerise)
-    const {time,picture,age,_id,name,about}=excerise
+const SingleExcerise = (props) => {
+
+    const {time,picture,age,_id,name,about}=props.excerise
+    
+    const{addToList}=props
     return (
         <div className='ml-10'>
             <div className="card  bg-base-100 shadow-xl sm:w-96">
@@ -16,7 +18,7 @@ const SingleExcerise = ({excerise}) => {
               <p>Age:{age}</p>
                <p>{about.slice(0,90)}</p>
                    <div className="card-actions">
-                 <button className="btn btn-primary">Add To List</button>
+                 <button onClick={()=>addToList(props.excerise)} className="btn btn-primary">Add To List</button>
                   </div>
                        </div>
                 </div>

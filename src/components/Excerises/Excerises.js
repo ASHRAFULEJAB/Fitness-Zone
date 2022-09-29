@@ -7,12 +7,18 @@ import './Excerises.css'
 
 const Excerises = () => {
     const [excerises,setExcerises]=useState([])
+    const [times,setTimes]= useState([])
     useEffect(()=>{
 
         fetch('gymDetails.json')
         .then(res => res.json())
         .then(data => setExcerises(data))
     },[])
+
+    const addToList=(excercise)=>{
+      const newTimes = [...times,excercise]
+      setTimes(newTimes)
+    }
     return (
         <div>
             <h1 className='mt-6 text-center lg:text-4xl sm:text-2xl text-black font-bold'>Select Your Today's Excerise Please??</h1>
@@ -22,6 +28,7 @@ const Excerises = () => {
                     excerises.map( excerise => <SingleExcerise
                     excerise={excerise}
                     key={excerise._id}
+                    addToList={addToList}
                     >
                     </SingleExcerise>)
                   }
@@ -30,7 +37,9 @@ const Excerises = () => {
                 <div className=' sm:ml-3 lg:ml-24  mt-6 '>
                     <PersonalInfo></PersonalInfo>
                     <Break></Break>
-                    <Details></Details>
+                    <Details 
+                    times={times}
+                    ></Details>
                 </div>
 
             </div>
