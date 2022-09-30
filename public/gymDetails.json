@@ -5,7 +5,7 @@
       "picture": "https://images.unsplash.com/photo-1541600383005-565c949cf777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       "age": 20,
       "name": "Squat",
-      "about": "Voluptate occaecat do irure est sit cillum laboris ipsum pariatur aliquip et id. Dolore officia ea anim consequat amet fugiat. Irure enim Lorem irure et deserunt ipsum. Ad voluptate commodo nulla aliqua reprehenderit anim enim magna. Nisi magna ipsum adipisicing ad Lorem fugiat laboris. Nisi do tempor eu ut do qui est mollit.\r\n"
+      "about": "To achieve the best results, use a heavy weight, with fewer reps to increase strength and muscle mass, or use lighter weights (or simply your body weight) with explosive plyometric movements to develop your power and speed.\r\n"
     },
     {
       "_id": "6334af60f33762d416726ee5",
@@ -13,7 +13,7 @@
       "picture": "https://images.unsplash.com/photo-1646724771657-6696373e8c1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Ym94JTIwanVtcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "age": 35,
       "name": "Box Jump",
-      "about": "Deserunt proident et ullamco do elit in duis magna Lorem proident aliqua. Velit ut fugiat in dolor sint cupidatat mollit voluptate in cillum ipsum culpa sint est. Commodo in nisi elit culpa do enim adipisicing. Magna eiusmod amet officia anim sunt tempor ex.\r\n"
+      "about": "This is a plyometric movement (i.e. a quick, movement that starts with a muscle engthening action, immediately followed by a muscle shortening one) that will help develop strength and power in your legs, specifically the hamstrings, glutes and quads.\r\n"
     },
     {
       "_id": "6334af60415d794544d9e7b5",
@@ -21,7 +21,7 @@
       "picture": "https://images.unsplash.com/photo-1640622304964-3e2c2c0cd7cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "age": 23,
       "name": "Plank",
-      "about": "Laboris irure ad adipisicing est duis qui. Ut et aute est aliqua labore cupidatat pariatur occaecat tempor culpa adipisicing pariatur elit deserunt. In anim elit tempor nulla eu. Velit id magna aliquip sunt sunt excepteur deserunt magna enim voluptate commodo esse qui.\r\n"
+      "about": "This is a fantastic exercise for your core that can be done in loads of different ways, depending on what you want to achieve. You can also perform a plank at both high and low intensity levels.\r\n"
     },
     {
       "_id": "6334af601218f2c43eb37fc6",
@@ -29,7 +29,7 @@
       "picture": "https://images.unsplash.com/photo-1652363722833-509b3aac287b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "age": 32,
       "name": "Bench Press",
-      "about": "Laborum nulla qui sint quis cillum labore proident culpa commodo. Labore nisi enim duis commodo officia fugiat sunt ad proident est. Commodo nostrud exercitation aliquip minim irure magna consequat consectetur nostrud et incididunt. Voluptate id id amet magna culpa cillum excepteur irure dolor tempor proident.\r\n"
+      "about": "An exercise that’s key for building upper body strength. To perform this exercise properly, you’ll need to use an Olympic bar or dumbbells for better muscle recruitment.\r\n"
     },
     {
       "_id": "6334af6072f4c0901d6b388c",
@@ -37,7 +37,7 @@
       "picture": "https://images.unsplash.com/photo-1637712901929-a30440e1bb28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "age": 36,
       "name": "Treadmill Interval Sprints",
-      "about": "Anim tempor ipsum deserunt cillum mollit occaecat nisi adipisicing excepteur commodo. Velit Lorem adipisicing non et in excepteur sunt aute excepteur. Mollit sunt in qui aute pariatur exercitation.\r\n"
+      "about": "Playing a game for 90 minutes requires you to have great endurance combined with the ability to put in short bursts of maximum effort. Try a TABATA-style 20 second sprint combined with 10 second recovery and repeat several times to get the full benefit.\r\n"
     },
     {
       "_id": "6334af6020368b8edbfb5b7d",
@@ -45,7 +45,7 @@
       "picture": "https://images.unsplash.com/photo-1640334555721-3bc128dc4911?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1372&q=80",
       "age": 26,
       "name": "Bosu Squats",
-      "about": "Aute velit sint esse aliqua. Veniam ex nisi ut sint deserunt nulla incididunt. Esse cupidatat dolore anim ullamco nostrud consequat labore. Sit qui occaecat ullamco aliqua laboris dolore est do esse. Consequat ut ea nisi veniam cillum fugiat cupidatat velit occaecat ea est aute ad. In consequat sunt amet dolore labore. Duis velit voluptate sint exercitation laborum ipsum ipsum reprehenderit incididunt.\r\n"
+      "about": "The unstable surface will help develop core strength, balance and strengthen the ankle stabilisers, which can help prevent common ankle injuries that footballers suffer from. Try them on just one leg at a time for a real challenge.\r\n"
     },
     {
       "_id": "6334af60f41f67687b30f1bc",
@@ -53,6 +53,14 @@
       "picture": "https://images.unsplash.com/photo-1591741535585-9c4f52b3f13f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "age": 27,
       "name": "Foam Roller",
-      "about": "Velit ad ipsum aute excepteur in adipisicing proident exercitation. Laboris sunt dolor eiusmod minim. Eiusmod nisi occaecat eu laborum. Cillum duis aliqua commodo velit ipsum mollit enim nostrud eu sint in laborum ut. Eu laboris eiusmod aliqua adipisicing sit minim mollit excepteur incididunt eiusmod nisi nisi nostrud. Nostrud exercitation minim qui fugiat adipisicing commodo commodo excepteur Lorem eiusmod velit.\r\n"
+      "about": "Using a foam roller both before and after exercise helps massage away knots and tightness in your muscles, which in turn helps prevent injuries and de-stresses the body so it can work more efficiently. It also increases flexibility.\r\n"
+    },
+    {
+      "_id": "6334af60f41f67687b30f1bc",
+      "time": 53,
+      "picture": "https://images.unsplash.com/photo-1591741535585-9c4f52b3f13f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "age": 27,
+      "name": "Foam Roller",
+      "about": "Using a foam roller both before and after exercise helps massage away knots and tightness in your muscles, which in turn helps prevent injuries and de-stresses the body so it can work more efficiently. It also increases flexibility.\r\n"
     }
   ]
