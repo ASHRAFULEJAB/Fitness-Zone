@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+
 import './SingleExcerise.css'
 
 const SingleExcerise = (props) => {
 
-    const {time,picture,age,_id,name,about}=props.excerise
+    const {time,picture,age,name,about}=props.excerise
     
     const{addToList}=props
     return (
-        <div className='ml-10'>
+        <div className='ml-10 mb-6'>
             <div className="card  bg-base-100 shadow-xl sm:w-96">
              <figure className="px-10 pt-10">
             <img src={picture}  alt="Shoes" className=" w-72 h-72 rounded-xl " />

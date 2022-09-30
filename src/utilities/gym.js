@@ -11,7 +11,7 @@ const getSavedTime=()=>{
     const savedTime = localStorage.getItem('added-time');
     if(savedTime){
         breakTime = JSON.parse(savedTime);
-        console.log(breakTime)
+        
     }
     return breakTime;
 }

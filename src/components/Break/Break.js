@@ -1,13 +1,7 @@
 
 
 const Break = ({addToBreak}) => {
-    // const [breakTime,setBreakTime] = useState([])
-    // console.log(breakTime)
-    // const addtoBreak = (event)=>{
-    // const addTime=parseInt(event.target.value);
-    // setBreakTime( addTime);
-    // }
-    
+
     return (
         <div className='mt-6'>
             <div className="overflow-hidden card sm:w-96 2xl:w-96 bg-gray-400 shadow-xl  2xl: grid grid-cols-2 lg: grid grid-cols-2">
